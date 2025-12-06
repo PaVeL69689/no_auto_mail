@@ -13,14 +13,16 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
-## Contributing
+## Основная структура:
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![5303020486180671662](https://github.com/user-attachments/assets/bf6d8c37-a341-4b34-a37f-d2f3c4531b80)
 
-## Security Vulnerabilities
+## Основные задачи:
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+- Отправка электронных писем с помощью очередей.
+- Отработка очередей с помощью redis.
+- Слушатель сообщений от Kafka с помощью библиотеки
+  mateusjunges/laravel-kafka
+- Получение данных из БД postgresql clickhouse
+  с помощью библиотеки smi2/phpclickhouse
 
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
